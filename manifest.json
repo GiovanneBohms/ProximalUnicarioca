@@ -8,7 +8,11 @@
   },
   "permissions": [
     "scripting",
-    "activeTab"
+    "activeTab",
+    "webNavigation"
+  ],
+  "host_permissions": [
+    "https://proximal.unicarioca.edu.br/portal/egresso/*"
   ],
   "icons": {
     "16": "./images/icon16.png",
